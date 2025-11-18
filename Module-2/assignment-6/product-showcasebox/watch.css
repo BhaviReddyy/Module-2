@@ -1,0 +1,54 @@
+.container {
+    font-family: Arial, sans-serif;
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    border: 3px solid grey;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.rating-section {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+
+.rating {
+    background-color: #388e3c;
+    color: white;
+}
+
+.price {
+    margin-top: 10px;
+}
+
+.discounted-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #757575;
+    margin-left: 10px;
+}
+
+.discount {
+    color: #388e3c;
+    margin-left: 10px;
+}
+
+.buy-now {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
