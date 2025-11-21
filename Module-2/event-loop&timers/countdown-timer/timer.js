@@ -11,7 +11,6 @@ let intervalId = setInterval(() => {
     }
 }, 1000);
 
-// Check every 1 second if user typed "s"
 function checkStopKey() {
     setTimeout(() => {
         let input = prompt("Press 's' to stop the countdown (or wait):");
@@ -20,7 +19,6 @@ function checkStopKey() {
             clearInterval(intervalId);
             console.log("Countdown Stopped by User!");
         } else {
-            // Keep checking until timer ends
             if (seconds > 0) {
                 checkStopKey();
             }
