@@ -50,5 +50,9 @@ let emp = {
         profile: { role: "Developer" }
     }
 };
-let role = emp ? .details ? .profile ? .role;
+let role = "Not available";
+if (emp && emp.details && emp.details.profile && emp.details.profile.role) {
+    role = emp.details.profile.role;
+}
+
 console.log("Q7:", role);
